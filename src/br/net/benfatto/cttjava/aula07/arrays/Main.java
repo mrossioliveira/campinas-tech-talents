@@ -31,11 +31,6 @@ public class Main {
         // guardar o maior valor
         int maior = arr[0];
 
-        // iterar a lista de outra forma
-        for (int elemento : arr) {
-            System.out.println(elemento);
-        }
-
         // iterar a lista
         for (int i = 1; i < arr.length; i++) {
 
@@ -47,7 +42,6 @@ public class Main {
                 // atualizar o maior valor
                 maior = elementoArray;
             }
-
         }
 
         // retornar o maior valor
@@ -66,7 +60,7 @@ public class Main {
         return 0;
     }
 
-    public void printarArrayInvertido(int [] arr) {
+    public void printarArrayInvertido(int[] arr) {
 
     }
 }
